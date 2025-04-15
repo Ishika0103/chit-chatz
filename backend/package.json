@@ -4,15 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js",
+    "start": "node server.js",
+    "server": "nodemon server.js",
     "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [
     "mern",
     "chat-app"
   ],
-  "author": "Ishiak Jain",
+  "author": "Ishika Jain",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
