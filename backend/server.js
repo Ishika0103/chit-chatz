@@ -7,9 +7,10 @@ const messageRoutes = require("./routes/messageRoutes");
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 const path = require("path");
 
-dotenv.config({ path: path.resolve(__dirname, '.env') });
+dotenv.config()
 connectDB();
 const app = express();
+const _dirname = path.resolve();
 
 app.use(express.json()); // to accept json data
 
